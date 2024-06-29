@@ -1,4 +1,5 @@
 Port Scanner
+
 This project is a simple port scanner built using Python. The program is used to scan a specified range of ports on a given target IP address so it can search for any open ports. 
 
 Description
