@@ -30,7 +30,7 @@ def scan_ports(target, start_port, end_port):
 
     for port in range(start_port, end_port + 1):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        socket.setdefaulttimeout(1)
+        socket.setdefaulttimeout(0.05)
 
         # Try to connect to the target port
         result = s.connect_ex((target, port))
